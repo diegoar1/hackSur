@@ -10,10 +10,9 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
 import { ChartsModule } from 'ng2-charts';
-import { MyLineChartComponent } from './my-line-chart/my-line-chart.component';
 
 @NgModule({
-  declarations: [AppComponent, MyLineChartComponent],
+  declarations: [AppComponent],
   entryComponents: [],
   imports: [
     BrowserModule,
