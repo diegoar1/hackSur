@@ -9,13 +9,17 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
+import { ChartsModule } from 'ng2-charts';
+import { MyLineChartComponent } from './my-line-chart/my-line-chart.component';
+
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, MyLineChartComponent],
   entryComponents: [],
   imports: [
     BrowserModule,
     IonicModule.forRoot(),
-    AppRoutingModule
+    AppRoutingModule,
+    ChartsModule
   ],
   providers: [
     StatusBar,
