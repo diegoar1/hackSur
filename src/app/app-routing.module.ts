@@ -14,7 +14,11 @@ const routes: Routes = [
   {
     path: 'list',
     loadChildren: './list/list.module#ListPageModule'
-  }
+  },  { path: 'evelocidad', loadChildren: './componentes/evelocidad/evelocidad.module#EvelocidadPageModule' },
+  { path: 'frenado', loadChildren: './componentes/frenado/frenado.module#FrenadoPageModule' },
+  { path: 'aceleracion', loadChildren: './componentes/aceleracion/aceleracion.module#AceleracionPageModule' },
+  { path: 'mapa', loadChildren: './componentes/mapa/mapa.module#MapaPageModule' }
+
 ];
 
 @NgModule({
